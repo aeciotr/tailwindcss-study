@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-Construção de Layout</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div> 
+        <h1 class="text-center">Border Box & Box Content</h1>
+        <div class="container bg-green-400 border-box m-10 p-10">
+          Border Box
+        </div>
+        <div class="container  bg-red-400 box-content m-10 p-10">
+          Box Content
+        </div>
+    </div>
+
+    <div> 
+        <h1 class="text-center">OverFlow</h1>
+        <div class="overflow-hidden h-40 bg-gray-300 m-6">
+            <p>Lorem ipsum dolor sit,HIDDEN </p> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p>  
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p>  
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p>  
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p>  
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p> 
+      
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p>  
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum recusandae fugiat </p> 
+        </div>
+        <br>
+        <div class="overflow-auto h-10 bg-red-300 m-6">
+            <p>Lorem ipsum dolor sit, AUTO </p> 
+            <p>Lorem ipsum dolor sit, </p>  
+            <p>Lorem ipsum dolor sit, </p>   
+        </div>
+
+        <div class="overflow-x-auto h-10 bg-green-300 m-6">
+            <p>AUTO X - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p> 
+
+        </div>
+        <h1 class="text-center">Positions and Directions</h1>
+        <div class="relative">
+            <div class="absolute top-0 right-0 bg-purple-300">
+                Absolute
+            </div>
+        </div>
+        <br><br>
+        <h1 class="text-center">Excercise3</h1>
+        <div class="container h-10 relative bg-gray-400">
+            <div class="absolute bottom-0 right-0 bg-black">
+                DIV
+            </div>
+        </div>
+
+
+
+        /*
+        z-0	    z-index: 0;
+        z-10	z-index: 10;
+        z-20	z-index: 20;
+        z-30	z-index: 30;
+        z-40	z-index: 40;
+        z-50	z-index: 50;
+        z-auto	z-index: auto;
+        */
+        <h1 class="text-center">Z-INDEX</h1>
+        <div class="container relativ">
+            <div class="absolute bg-red-200 h-10 ">
+                BACK  BACK BACK BACK BACK BACK 
+            </div>
+            <div class="absolute bg-green-900 h-10 z-10">
+                FRONT
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
